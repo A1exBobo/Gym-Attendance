@@ -1,0 +1,26 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><help_text></help_text><element><id>UMLNote</id><coordinates><x>70</x><y>40</y><w>520</w><h>330</h></coordinates><panel_attributes>DESPRE
+-..
+Aplicatie care iti spune de cate ori
+ai fost la sala si face niste calcule si plot-uri .
+--
+GUI
+-..
+Probabil un calendar mare 
+cu fiecare luna in fata 
+stanga te duci inapoi , dreapta inainte 
+apesi pe zi 
+ai 1 buton(toogle) - am fost la sala / nu am fost la sala 
+--
+Backend
+-..
+date default pe care le folosesti 
+cat costa abonamentul 
+numar de zile a lunii
+
+aplicatia genereaza 2 sau mai multe plot-uri
+1-raportul dintre abonament si numarul de intrari 
+2-un plot cu intrarile (ca bare) 
+
+datele se salveaza intr-o baza de date locala SQLite
+ 
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element></diagram>
