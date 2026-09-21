@@ -1,0 +1,8 @@
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLNote</id><coordinates><x>210</x><y>50</y><w>320</w><h>70</h></coordinates><panel_attributes>Informatiile salvate in baza de date sunt  despre 
+persoana ( dar inital o sa fac fara conturi separate) 
+se salveaza doar zilele in care a fost omul la sala 
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>270</x><y>320</y><w>140</w><h>70</h></coordinates><panel_attributes>Prezenta
+--
+Data : Date/Time 
+bg=gray
+fg=red</panel_attributes><additional_attributes></additional_attributes></element></diagram>
