@@ -1,0 +1,12 @@
+--script pentru SQLite
+
+CREATE TABLE GYMATTENDANCE(Data date CHECK(Date < date(now)) );
+
+CREATE TRIGGER CheckInsert
+BEFORE INSERT ON GYMATTENDANCE
+BEGIN
+IF Date > CURRENT_DATE
+SELECT RAISE(ABORT,'Nu poti introduce o data mai mare decat data curenta.')
+END 
+
+INSERT INTO GYMATTENDANCE VALUES(CURRENT_DATE);
