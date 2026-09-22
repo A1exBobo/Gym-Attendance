@@ -1,8 +1,9 @@
-<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLNote</id><coordinates><x>210</x><y>50</y><w>320</w><h>70</h></coordinates><panel_attributes>Informatiile salvate in baza de date sunt  despre 
+<diagram program="umletino" version="15.1"><zoom_level>10</zoom_level><element><id>UMLNote</id><coordinates><x>210</x><y>50</y><w>350</w><h>60</h></coordinates><panel_attributes>Informatiile salvate in baza de date sunt  despre o singura
 persoana ( dar inital o sa fac fara conturi separate) 
-se salveaza doar zilele in care a fost omul la sala 
-bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>270</x><y>320</y><w>140</w><h>70</h></coordinates><panel_attributes>Prezenta
+se salveaza doar zilele in care utilizatorul a fost la sala 
+bg=blue</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLPackage</id><coordinates><x>210</x><y>190</y><w>140</w><h>70</h></coordinates><panel_attributes>Prezenta
 --
 Data : Date/Time 
 bg=gray
-fg=red</panel_attributes><additional_attributes></additional_attributes></element></diagram>
+fg=red</panel_attributes><additional_attributes></additional_attributes></element><element><id>UMLClass</id><coordinates><x>550</x><y>220</y><w>100</w><h>30</h></coordinates><panel_attributes>/Frontend/GUI/
+</panel_attributes><additional_attributes></additional_attributes></element><element><id>Relation</id><coordinates><x>340</x><y>220</y><w>230</w><h>30</h></coordinates><panel_attributes>lt=&lt;-</panel_attributes><additional_attributes>10;10;210;10</additional_attributes></element></diagram>
